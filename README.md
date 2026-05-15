@@ -40,6 +40,9 @@ Create these branches exactly:
 - `feature/database-connection`
 - `feature/api-endpoints`
 
+## Feature Summary
+This branch reorganizes API routes and adds feedback endpoint validation.
+
 ## Suggested Conflict Targets
 To intentionally create a merge conflict, edit the same lines in one of:
 - `README.md`
