@@ -40,6 +40,13 @@ Create these branches exactly:
 - `feature/database-connection`
 - `feature/api-endpoints`
 
+## Feature Summary
+This branch adds login validation, authentication API routes, and demo credential testing support.
+
+Demo login credentials:
+- Email: student@example.com
+- Password: Password123
+
 ## Suggested Conflict Targets
 To intentionally create a merge conflict, edit the same lines in one of:
 - `README.md`
