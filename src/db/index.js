@@ -67,7 +67,7 @@ function runMemoryQuery(tables, statement, params = []) {
   return {
     rows: [],
     rowCount: 0,
-    message: `Memory driver received unsupported query: ${statement}`
+    message: `Memory database received unsupported query: ${statement}`
   };
 }
 
