@@ -41,7 +41,11 @@ Create these branches exactly:
 - `feature/api-endpoints`
 
 ## Feature Summary
-This branch adds login validation, authentication API routes, and demo credential testing support.
+This checkpoint implementation includes authentication, database connection, and API endpoint work.
+
+- Authentication: login validation, POST /api/auth/login, and demo credential testing.
+- Database: environment-based memory connection with connect(), getClient(), and query().
+- API endpoints: split route modules and feedback endpoints with input validation.
 
 Demo login credentials:
 - Email: student@example.com
