@@ -41,7 +41,15 @@ Create these branches exactly:
 - `feature/api-endpoints`
 
 ## Feature Summary
-This branch reorganizes API routes and adds feedback endpoint validation.
+This checkpoint implementation includes authentication, database connection, and API endpoint work.
+
+- Authentication: login validation, POST /api/auth/login, and demo credential testing.
+- Database: environment-based memory connection with connect(), getClient(), and query().
+- API endpoints: split route modules and feedback endpoints with input validation.
+
+Demo login credentials:
+- Email: student@example.com
+- Password: Password123
 
 ## Suggested Conflict Targets
 To intentionally create a merge conflict, edit the same lines in one of:
